@@ -1,25 +1,22 @@
 const Hapi = require('@hapi/hapi');
 require('dotenv').config();
+const productRoutes = require('./routes/ProductRoutes');
 
-class Server {
-    
-    constructor() {
-        this.server = Hapi.server({
-            host: process.env.APP_HOST,
-            port: process.env.APP_PORT
-        });
-    }
+const init = async () => {
+    const server = Hapi.server({
+        host: process.env.APP_HOST,
+        port: process.env.APP_PORT
+    });
 
-    async start() {
-        try {
-            await this.server.start();
-            console.log(`Server running on port ${process.env.APP_PORT}`);
-        } catch (err) {
-            console.error('Failed to start the server:', err);
-            process.exit(1); 
-        }
-    }
-}
+    server.route(productRoutes);
 
-const serverInstance = new Server();
-serverInstance.start();
+    await server.start();
+    console.log(`Server running on port ${process.env.APP_PORT}`);
+};
+
+process.on('unhandledRejection', (err) => {
+    console.log(err);
+    process.exit(1);
+});
+
+init();

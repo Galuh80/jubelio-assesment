@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "driver": "pg",
+        "host": "localhost",
+        "user": "jubelio_user",
+        "password": "jubelio_pass",
+        "database": "db_jubelio_assesment",
+        "port": 5432
+    }
+}
+  
