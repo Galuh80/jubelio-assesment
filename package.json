@@ -11,8 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^21.3.10",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
     "db-migrate-pg": "^1.5.2",
     "dotenv": "^16.4.5",
+    "hapi-swagger": "^17.2.1",
     "nodemon": "^3.1.4",
     "npx": "^10.2.2",
     "postgres": "^3.4.4"
