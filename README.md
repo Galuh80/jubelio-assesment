@@ -82,14 +82,18 @@ Before running the library management application, make sure you have installed 
    ```sh
    npx nodemon app
    ```
+3. Run swagger
+   ```sh
+   http://localhost:PORT/documentation
+   ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[NodeJS]: https://img.shields.io/node/v/package-name.svg
+[NodeJS]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [NodeJS-url]: https://nodejs.org/en
-[HapiJS]: https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white
-[HapiJS-url]: https://expressjs.com/
-[PostgreSQL]: https://shields.io/badge/MySQL-lightgrey?logo=mysql&style=plastic&logoColor=white&labelColor=blue
-[PostgreSQL-url]: https://www.mysql.com/
+[HapiJS]: https://img.shields.io/badge/hapi-%5E20.0.0-brightgreen.svg
+[HapiJS-url]: https://hapi.dev/
+[PostgreSQL]: https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white
+[PostgreSQL-url]: https://www.postgresql.org/
 [Swagger]: https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white
 [Swagger-url]: https://swagger.io/
