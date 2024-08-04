@@ -91,7 +91,7 @@ Before running the library management application, make sure you have installed 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [NodeJS]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [NodeJS-url]: https://nodejs.org/en
-[HapiJS]: https://img.shields.io/badge/hapi-%5E20.0.0-brightgreen.svg
+[HapiJS]: https://img.shields.io/badge/HapiJS-%5E21.3.10-brightgreen.svg
 [HapiJS-url]: https://hapi.dev/
 [PostgreSQL]: https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white
 [PostgreSQL-url]: https://www.postgresql.org/
